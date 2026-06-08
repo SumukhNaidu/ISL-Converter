@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+*.h5
+*.tflite
+*.keras
+data_collection/dataset/
+training/X_train.npy
+training/X_test.npy
+training/y_train.npy
+training/y_test.npy
+training/y_test.npy
+training/history.npy
+training/best_model.h5
+training/signs.npy
+.dist 
