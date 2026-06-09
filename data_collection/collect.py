@@ -9,7 +9,7 @@ mp_draw  = mp.solutions.drawing_utils
 hands    = mp_hands.Hands(max_num_hands=1, min_detection_confidence=0.7)
 
 # --- SETTINGS ---
-SIGNS        = ["HELLO", "THANK YOU", "WATER", "FOOD", "HELP", "YES", "NO", "PLEASE"]
+SIGNS        = ["HELLO", "THANK YOU", "WATER", "FOOD", "HELP", "YES", "NO", "PLEASE", "GOOD", "MORNING", "HOW", "ARE", "YOU"]
 NUM_SEQUENCES = 80    # recordings per sign
 SEQ_LENGTH    = 30    # frames per recording
 DATASET_PATH  = "data_collection/dataset"
